@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Disease Data - Pavan Roshan's Medical Health Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f4f4f4;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 20px 30px;
+      margin: 30px auto;
+      max-width: 900px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    .list-group-item {
+      background-color: #2d2d2d;
+      color: #f8f8f2;
+      border: none;
+      margin-bottom: 5px;
+    }
+    .list-group-item:nth-child(odd) {
+      background-color: #3d3d3d;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-4">
+    <h1>Disease Data</h1>
+
+    <div class="section">
+      <h2>Symptoms</h2>
+      <ul class="list-group">
+        <li class="list-group-item">itching</li>
+        <li class="list-group-item">skin_rash</li>
+        <li class="list-group-item">nodal_skin_eruptions</li>
+        <li class="list-group-item">continuous_sneezing</li>
+        <li class="list-group-item">shivering</li>
+        <li class="list-group-item">chills</li>
+        <li class="list-group-item">joint_pain</li>
+        <li class="list-group-item">stomach_pain</li>
+        <li class="list-group-item">acidity</li>
+        <li class="list-group-item">ulcers_on_tongue</li>
+        <li class="list-group-item">muscle_wasting</li>
+        <li class="list-group-item">vomiting</li>
+        <li class="list-group-item">burning_micturition</li>
+        <li class="list-group-item">spotting_ urination</li>
+        <li class="list-group-item">fatigue</li>
+        <li class="list-group-item">weight_gain</li>
+        <li class="list-group-item">anxiety</li>
+        <li class="list-group-item">cold_hands_and_feets</li>
+        <li class="list-group-item">mood_swings</li>
+        <li class="list-group-item">weight_loss</li>
+        <li class="list-group-item">restlessness</li>
+        <li class="list-group-item">lethargy</li>
+        <li class="list-group-item">patches_in_throat</li>
+        <li class="list-group-item">irregular_sugar_level</li>
+        <li class="list-group-item">cough</li>
+        <li class="list-group-item">high_fever</li>
+        <li class="list-group-item">sunken_eyes</li>
+        <li class="list-group-item">breathlessness</li>
+        <li class="list-group-item">sweating</li>
+        <li class="list-group-item">dehydration</li>
+        <li class="list-group-item">indigestion</li>
+        <li class="list-group-item">headache</li>
+        <li class="list-group-item">yellowish_skin</li>
+        <li class="list-group-item">dark_urine</li>
+        <li class="list-group-item">nausea</li>
+        <li class="list-group-item">loss_of_appetite</li>
+        <li class="list-group-item">pain_behind_the_eyes</li>
+        <li class="list-group-item">back_pain</li>
+        <li class="list-group-item">constipation</li>
+        <li class="list-group-item">abdominal_pain</li>
+        <li class="list-group-item">diarrhoea</li>
+        <li class="list-group-item">mild_fever</li>
+        <li class="list-group-item">yellow_urine</li>
+        <li class="list-group-item">yellowing_of_eyes</li>
+        <li class="list-group-item">acute_liver_failure</li>
+        <li class="list-group-item">fluid_overload</li>
+        <li class="list-group-item">swelling_of_stomach</li>
+        <li class="list-group-item">swelled_lymph_nodes</li>
+        <li class="list-group-item">malaise</li>
+        <li class="list-group-item">blurred_and_distorted_vision</li>
+        <li class="list-group-item">phlegm</li>
+        <li class="list-group-item">throat_irritation</li>
+        <li class="list-group-item">redness_of_eyes</li>
+        <li class="list-group-item">sinus_pressure</li>
+        <li class="list-group-item">runny_nose</li>
+        <li class="list-group-item">congestion</li>
+        <li class="list-group-item">chest_pain</li>
+        <li class="list-group-item">weakness_in_limbs</li>
+        <li class="list-group-item">fast_heart_rate</li>
+        <li class="list-group-item">pain_during_bowel_movements</li>
+        <li class="list-group-item">pain_in_anal_region</li>
+        <li class="list-group-item">bloody_stool</li>
+        <li class="list-group-item">irritation_in_anus</li>
+        <li class="list-group-item">neck_pain</li>
+        <li class="list-group-item">dizziness</li>
+        <li class="list-group-item">cramps</li>
+        <li class="list-group-item">bruising</li>
+        <li class="list-group-item">obesity</li>
+        <li class="list-group-item">swollen_legs</li>
+        <li class="list-group-item">swollen_blood_vessels</li>
+        <li class="list-group-item">puffy_face_and_eyes</li>
+        <li class="list-group-item">enlarged_thyroid</li>
+        <li class="list-group-item">brittle_nails</li>
+        <li class="list-group-item">swollen_extremeties</li>
+        <li class="list-group-item">excessive_hunger</li>
+        <li class="list-group-item">extra_marital_contacts</li>
+        <li class="list-group-item">drying_and_tingling_lips</li>
+        <li class="list-group-item">slurred_speech</li>
+        <li class="list-group-item">knee_pain</li>
+        <li class="list-group-item">hip_joint_pain</li>
+        <li class="list-group-item">muscle_weakness</li>
+        <li class="list-group-item">stiff_neck</li>
+        <li class="list-group-item">swelling_joints</li>
+        <li class="list-group-item">movement_stiffness</li>
+        <li class="list-group-item">spinning_movements</li>
+        <li class="list-group-item">loss_of_balance</li>
+        <li class="list-group-item">unsteadiness</li>
+        <li class="list-group-item">weakness_of_one_body_side</li>
+        <li class="list-group-item">loss_of_smell</li>
+        <li class="list-group-item">bladder_discomfort</li>
+        <li class="list-group-item">foul_smell_of urine</li>
+        <li class="list-group-item">continuous_feel_of_urine</li>
+        <li class="list-group-item">passage_of_gases</li>
+        <li class="list-group-item">internal_itching</li>
+        <li class="list-group-item">toxic_look_(typhos)</li>
+        <li class="list-group-item">depression</li>
+        <li class="list-group-item">irritability</li>
+        <li class="list-group-item">muscle_pain</li>
+        <li class="list-group-item">altered_sensorium</li>
+        <li class="list-group-item">red_spots_over_body</li>
+        <li class="list-group-item">belly_pain</li>
+        <li class="list-group-item">abnormal_menstruation</li>
+        <li class="list-group-item">dischromic _patches</li>
+        <li class="list-group-item">watering_from_eyes</li>
+        <li class="list-group-item">increased_appetite</li>
+        <li class="list-group-item">polyuria</li>
+        <li class="list-group-item">family_history</li>
+        <li class="list-group-item">mucoid_sputum</li>
+        <li class="list-group-item">rusty_sputum</li>
+        <li class="list-group-item">lack_of_concentration</li>
+        <li class="list-group-item">visual_disturbances</li>
+        <li class="list-group-item">receiving_blood_transfusion</li>
+        <li class="list-group-item">receiving_unsterile_injections</li>
+        <li class="list-group-item">coma</li>
+        <li class="list-group-item">stomach_bleeding</li>
+        <li class="list-group-item">distention_of_abdomen</li>
+        <li class="list-group-item">history_of_alcohol_consumption</li>
+        <li class="list-group-item">fluid_overload.1</li>
+        <li class="list-group-item">blood_in_sputum</li>
+        <li class="list-group-item">prominent_veins_on_calf</li>
+        <li class="list-group-item">palpitations</li>
+        <li class="list-group-item">painful_walking</li>
+        <li class="list-group-item">pus_filled_pimples</li>
+        <li class="list-group-item">blackheads</li>
+        <li class="list-group-item">scurring</li>
+        <li class="list-group-item">skin_peeling</li>
+        <li class="list-group-item">silver_like_dusting</li>
+        <li class="list-group-item">small_dents_in_nails</li>
+        <li class="list-group-item">inflammatory_nails</li>
+        <li class="list-group-item">blister</li>
+        <li class="list-group-item">red_sore_around_nose</li>
+        <li class="list-group-item">yellow_crust_ooze</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Diseases</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Fungal infection</li>
+        <li class="list-group-item">Allergy</li>
+        <li class="list-group-item">GERD</li>
+        <li class="list-group-item">Chronic cholestasis</li>
+        <li class="list-group-item">Drug Reaction</li>
+        <li class="list-group-item">Peptic ulcer diseae</li>
+        <li class="list-group-item">AIDS</li>
+        <li class="list-group-item">Diabetes</li>
+        <li class="list-group-item">Gastroenteritis</li>
+        <li class="list-group-item">Bronchial Asthma</li>
+        <li class="list-group-item">Hypertension</li>
+        <li class="list-group-item">Migraine</li>
+        <li class="list-group-item">Cervical spondylosis</li>
+        <li class="list-group-item">Paralysis (brain hemorrhage)</li>
+        <li class="list-group-item">Jaundice</li>
+        <li class="list-group-item">Malaria</li>
+        <li class="list-group-item">Chicken pox</li>
+        <li class="list-group-item">Dengue</li>
+        <li class="list-group-item">Typhoid</li>
+        <li class="list-group-item">hepatitis A</li>
+        <li class="list-group-item">Hepatitis B</li>
+        <li class="list-group-item">Hepatitis C</li>
+        <li class="list-group-item">Hepatitis D</li>
+        <li class="list-group-item">Hepatitis E</li>
+        <li class="list-group-item">Alcoholic hepatitis</li>
+        <li class="list-group-item">Tuberculosis</li>
+        <li class="list-group-item">Common Cold</li>
+        <li class="list-group-item">Pneumonia</li>
+        <li class="list-group-item">Dimorphic hemmorhoids(piles)</li>
+        <li class="list-group-item">Heart attack</li>
+        <li class="list-group-item">Varicose veins</li>
+        <li class="list-group-item">Hypothyroidism</li>
+        <li class="list-group-item">Hyperthyroidism</li>
+        <li class="list-group-item">Hypoglycemia</li>
+        <li class="list-group-item">Osteoarthristis</li>
+        <li class="list-group-item">Arthritis</li>
+        <li class="list-group-item">(vertigo) Paroymsal Positional Vertigo</li>
+        <li class="list-group-item">Acne</li>
+        <li class="list-group-item">Urinary tract infection</li>
+        <li class="list-group-item">Psoriasis</li>
+        <li class="list-group-item">Impetigo</li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
